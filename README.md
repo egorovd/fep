@@ -58,4 +58,4 @@ Using
   dead = fep:pop_if_alive(Ref).
 ```
 
-<!-- Small example: [fep_example](https://github.com/egorovd/fep_example) -->
+ Small example app: [fep_example](https://github.com/egorovd/fep_example)
