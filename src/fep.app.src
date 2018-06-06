@@ -1,0 +1,14 @@
+{application, fep,
+ [{description, "Fast Erlang Pool on NIF lock-free Queue"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {mod, {fep_app, []}},
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.

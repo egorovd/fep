@@ -1,0 +1,16 @@
+/logs
+/_build
+/.idea
+fep.iml
+.eunit
+*.o
+*.plt
+*.swp
+*.swo
+.erlang.cookie
+erl_crash.dump
+.rebar
+.rebar3
+ebin
+priv
+rebar.lock
