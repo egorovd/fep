@@ -51,11 +51,11 @@ Using
   % kill worker
   exit(Pid, normal).
 
-  % We can check if the worker is alive before giving.
+  % We can check if the worker is alive before giving:
   empty = fep:pop_if_alive(Ref).
 
-  % or if pool not empty
-  false = fep:pop_if_alive(Ref).
+  % Or if pool not empty and process is dead.
+  dead = fep:pop_if_alive(Ref).
 ```
 
 <!-- Small example: [fep_example](https://github.com/egorovd/fep_example) -->
